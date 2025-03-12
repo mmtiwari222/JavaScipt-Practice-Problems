@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+#num1 {
+    width: 100px;
+    height: 25px;
+    margin-right: 5px;
+    text-align: right;
+    padding-right: 5px;
+    border: 2px solid #000;
+    outline: none;
+    border-radius: 25px;
+}
+
+#num2 {
+    width: 100px;
+    height: 25px;
+    text-align: right;
+    padding-right: 5px;
+    border: 2px solid #000;
+    outline: none;
+    border-radius: 25px;
+}
+
+
+.btn {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 210px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn button {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#ans {
+    width: 210px;
+    height: 25px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: right;
+    padding-right: 5px;
+    border: 2px solid #000;
+    border-radius: 25px;
+}
